@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    color: #eeeeee;
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: linear-gradient(45deg, #79b9f1, #fcb5f8, #39f5de);
+    height: 98vh;
+    width: 100vw;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #393e46;
+}
+
+.divider {
+    color: #393e46;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(3.5px);
+    backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.select-option,
+.labels {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+#registrationForm {
+
+    width: 400px;
+}
+
+.input-container {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+
+
+}
+
+input {
+    width: 100%;
+    border: 2px solid rgb(149, 146, 146);
+    outline: none;
+    border-radius: 5px;
+
+}
+.data-display{
+    margin-top: -15px;
+
+}
+button{
+    margin: 15px auto 5px auto;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(3.5px);
+    backdrop-filter: blur(3.5px);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
